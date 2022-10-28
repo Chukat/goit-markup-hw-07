@@ -1,13 +1,14 @@
 .header {
 	border-bottom: 1px solid #ececec;
+
+	&-container,
+	&-nav,
+	&-list {
+		display: flex;
+		align-items: center;
+	}
 }
 
-.header-container,
-.header-nav,
-.header-list {
-	display: flex;
-	align-items: center;
-}
 .header-nav {
 	margin-right: auto;
 }
@@ -49,26 +50,20 @@
 	display: block;
 	padding-top: 32px;
 	padding-bottom: 32px;
-}
-
-.header-link,
-.header-contact {
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header-item {
-}
-.header-link:hover,
-.header-link:focus,
-.header-contact:hover,
-.header-contact:focus,
-.header-contact-icon:hover,
-.header-contact-icon:focus {
-	color: var(--accent-color);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }
 
 .header-contact-icon {
 	fill: currentColor;
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }
 .header-link.current::after {
 	content: "";

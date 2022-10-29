@@ -23,8 +23,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-bottom: 30px;
-	display: flex;
-	align-items: center;
+	@extend %aligner;
 	justify-content: center;
 }
 

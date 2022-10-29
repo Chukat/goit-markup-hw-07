@@ -34,8 +34,7 @@
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	right: 10px;
 	top: 10px;
-	display: flex;
-	align-items: center;
+	@extend %aligner;
 	justify-content: center;
 	padding: 0;
 	cursor: pointer;
@@ -177,8 +176,7 @@
 	line-height: calc(24 / 14);
 	letter-spacing: 0.03em;
 	color: var(--second-color);
-	display: flex;
-	align-items: center;
+	@extend %aligner;
 }
 
 .check-text span {
@@ -186,9 +184,9 @@
 	height: 15px;
 	border: 2px solid var(--main-title-color);
 	border-radius: 2px;
-	display: flex;
+
 	margin-right: 8px;
-	align-items: center;
+	@extend %aligner;
 	justify-content: center;
 	fill: transparent;
 
@@ -211,8 +209,7 @@
 	font-size: 16px;
 	line-height: calc(30 / 16);
 
-	display: flex;
-	align-items: center;
+	@extend %aligner;
 	text-align: center;
 	letter-spacing: 0.06em;
 	background-color: var(--accent-color);

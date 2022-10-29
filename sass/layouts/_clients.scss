@@ -13,8 +13,7 @@
 }
 
 .clients-link {
-	display: flex;
-	align-items: center;
+	@extend %aligner;
 	justify-content: center;
 	width: 100%;
 	height: 100%;

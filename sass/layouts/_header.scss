@@ -4,8 +4,7 @@
 	&-container,
 	&-nav,
 	&-list {
-		display: flex;
-		align-items: center;
+		@extend %aligner;
 	}
 }
 
@@ -36,8 +35,7 @@
 }
 
 .header-list .header-contact {
-	display: flex;
-	align-items: center;
+	@extend %aligner;
 	gap: 10px;
 }
 

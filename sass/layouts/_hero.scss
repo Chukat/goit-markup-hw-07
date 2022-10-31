@@ -11,7 +11,7 @@
 	margin: 0 auto;
 	text-align: center;
 
-	&-title {
+	&__title {
 		display: flex;
 		@include font(900, 44px, calc(60 / 44), 0.06em);
 
@@ -29,7 +29,7 @@
 		color: var(--main-color);
 	}
 
-	&-btn {
+	&__btn {
 		cursor: pointer;
 		@include font(700, 16px, calc(30 / 16), 0.06em);
 

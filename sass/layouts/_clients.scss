@@ -1,18 +1,24 @@
 .clients {
 	background-color: var(--main-color);
 
-	&-list {
+	&__list {
 		display: flex;
 		justify-content: space-between;
 	}
 
-	&-item {
+	&__item {
 		width: 170px;
 		height: 92px;
 	}
 }
+.clients__title {
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 36px;
+	line-height: calc(42 / 36);
+}
 
-.clients-link {
+.clients__link {
 	@extend %aligner;
 	justify-content: center;
 	width: 100%;

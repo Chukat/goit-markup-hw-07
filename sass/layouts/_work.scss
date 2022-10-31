@@ -1,4 +1,4 @@
-.work-list {
+.work__list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
@@ -27,14 +27,14 @@
 	justify-content: center;
 }
 
-.work-title {
+.work__title {
 	font-size: 14px;
 	line-height: calc(16 / 14);
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
 
-.work-text {
+.work__text {
 	line-height: calc(24 / 14);
 	color: var(--second-color);
 	width: 270px;

@@ -22,7 +22,7 @@
 	display: block;
 }
 
-.header__logo {
+.nav__logo {
 	margin-right: 93px;
 }
 
@@ -36,6 +36,8 @@
 
 .nav__list {
 	gap: 50px;
+	display: flex;
+	align-items: center;
 }
 
 .nav__list .nav__contact {
